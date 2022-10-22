@@ -1,0 +1,329 @@
+:root{
+    --main: #8490ff;
+    --background: #f9f9ff;
+    --border: #345621;
+    --hovercolor: #bedb6c;
+}
+
+header {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background: white;
+}
+.nav-holder {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.navbar .nav-link {
+  text-decoration: none;
+  font-size: 12px;
+  color: #222;
+  transition: 0.2s all;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.navbar .active {
+    color: var(--main);
+}
+.navbar .nav-link:hover {
+  color: var(--main);
+}
+.navbar .w3-button {
+  padding: 8px 8px;
+  text-transform: uppercase;
+}
+
+.button{
+    width: 168px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: -webkit-linear-gradient(
+0deg,#8490ff 0%,#62bdfc 100%);
+transition: 0.3s all;
+}
+
+.button:hover{
+    box-shadow: 0 20px 20px 0 rgb(132 144 255 / 30%);
+}
+.home-row{
+    display: flex;
+}
+
+.home-row .home1{
+    display: flex;
+    align-items: center;
+}
+h1.main{
+    margin: 12px 0;
+    font-weight: 600;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.home{
+    padding-top: 80px;
+    background-color: var(--background);
+}
+
+.home-row .home2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-row .home2 img{
+    width: 400px;
+}
+
+.info-row .home2 img{
+    width: 400px;
+}
+.info-row{
+    display: flex;
+}
+
+.card-img{
+    width: 30px;
+}
+
+.services-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px dashed var(--border)
+}
+
+.services .card:hover{
+    background-color: var(--hovercolor);
+    box-shadow: 0 20px 20px 0 rgb(132 144 255 / 30%);
+}
+.services .card:hover img{
+    filter: invert(1);
+}
+.services .card:hover h4, .services .card:hover p{
+    color: white;
+}
+.counter{
+    background-color: var(--main);
+}
+
+.counter-row{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.project-row{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+
+
+.links a:hover{
+    text-decoration: underline;
+    color: var(--main);
+}
+
+.links .active {
+    color: var(--main);
+}
+.links .active:hover{
+    text-decoration: none;
+    color: var(--main);
+}
+
+.card-version2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-version2:hover img{
+    filter: invert(0.854);
+
+}
+
+.logo{
+    width: 55px;
+}
+
+.info-vol2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.info-vol2 .main a:hover{
+    color: var(--main);
+}
+
+.home2-row{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.plan-row{
+    display: flex;
+    justify-content: center;
+}
+
+.number{
+    width: 100px;
+    border: 1px solid var(--main);
+    border-radius: 25%;
+}
+
+.card-version3{
+    background-color: var(--hovercolor);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    transform: 1s all;
+}
+
+.card-version3:hover{
+    background-color: var(--main);
+    color: #fff;
+}
+
+.card-version3:hover .bb{
+    border-bottom: 3px solid #fff;
+}
+.card-version3:hover img{
+    filter: invert(1);
+}
+
+.card-version3:hover a{
+    display: none
+}
+
+
+
+.blog-row{
+    display: flex;
+    gap: 30px;
+}
+.back-img{
+    width: 350px;
+}
+
+.one div{
+    display: flex;
+    gap: 7px;
+}
+
+.one-logo{
+    width: 40px;
+}
+
+.one:nth-child(2){
+    display: flex;
+    gap: 5px;
+}
+.effect:hover .back-img{
+    width: 380px;
+}
+.effect:hover h5{
+    color: var(--main);
+}
+.counter-row-2{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+.reklam1:hover{
+    filter: invert(1);
+}
+
+.main2{
+    font-weight: bold;
+    color: #fff;
+}
+footer{
+    background-color: rgb(28, 36, 143);
+}
+
+.footer-row{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.line{
+    color: #000;
+    background-color: rgb(233, 8, 8);
+
+}
+.line:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.media{
+    height: 30px;
+    
+}
+
+.card-vol5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.media:hover{
+    filter: invert(1); 
+}
+
+.love{
+    color: #fff;
+}
+
+.heart{
+    width: 25px;
+    vertical-align: middle;
+}
+
+.love:hover{
+    color: #e21515;
+}
+
+.love:hover .heart{
+    filter: invert(1); 
+}
+
+
+
